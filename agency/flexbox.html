@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox Project</title>
+    <style>
+        * {
+            margin: 0;
+            font-size: 25px;
+            border:2px solid black;
+            text-align: center;
+        }
+        body{
+            background-color:black;
+        }
+        header,
+        footer {
+            background-color: gold;
+            opacity: 0.9;
+            padding: 25px;
+            color: #fff;
+        }
+
+        .imgWrapper {
+            border: 1px solid black;
+            height: 238px;
+            display: flex;
+            justify-content: center;
+            background-color: black;
+            border-bottom: 3px solid black;
+        }
+
+        img {
+            height: 239px;
+            border: 2px solid lightgray;
+        }
+
+        .parent{
+            display:flex;
+
+        }
+        aside {
+            background-color: goldenrod;
+            height: 500px;
+            width: 25%;
+            color: #fff;
+        }
+
+        .container {
+            height: 500px;
+            width: 75%;
+            background-color: gold;
+        }
+        main{
+            height:40%;
+        }
+        section{
+            height:20%;
+        }
+        .last{
+            
+        }
+    </style>
+</head>
+
+<body>
+    <header>Yazan Yasser</header>
+    <div class="imgWrapper">
+        <img src="./gradient-new-year-social-media-cover-template_23-2149209478.jpg" alt="">
+    </div>
+    <div class="parent">
+        <aside>information</aside>
+        <div class="container">
+            <main></main>
+            <section></section>
+            <div class="flex last">
+
+            </div>
+        </div>
+    </div>
+        <footer>loading...</footer>
+
+</body>
+
+</html>
